@@ -88,3 +88,12 @@ img {
 
 }
 
+.about-content {
+    text-align: center;
+    color:rgb(250, 242, 166);
+    background-color: rgb(167, 67, 21);
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    /* center align text */
+}
+
