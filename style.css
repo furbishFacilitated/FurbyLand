@@ -16,7 +16,7 @@ img {
 
 /* The hero section styling- use your OWN Hero Image URL here */
 .hero {
-    background-image: url('images/americanfurby\ banner.png');
+    background-image: url('images/americanfurbybanner.png');
     height: 25vh;
     background-size: cover;
     background-position: center;
@@ -98,10 +98,19 @@ img {
 }
 
 .furby {
-    width: 100%;
+    width: 50%;
 }
 
 .about-content2 {
+    text-align: center;
+    color:rgb(250, 242, 166);
+    background-color: rgb(167, 67, 21);
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    /* center align text */
+}
+
+.about-content-text {
     text-align: center;
     color:rgb(250, 242, 166);
     background-color: rgb(167, 67, 21);
