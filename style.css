@@ -97,8 +97,14 @@ img {
     /* center align text */
 }
 
-.furbys {
-    width: 10%;
+.furbys{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6em;
+    /* bring the whole section in off the sides of the page */
+    width: 70%;
+    /* top margin of 3em and center right/left */
+    margin: 2em auto;
 }
 
 .about-content2 {
