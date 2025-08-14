@@ -124,3 +124,16 @@ img {
     margin-bottom: 0.5em;
     /* center align text */
 }
+
+#myButton {
+    padding: 10px 20px;
+    background-color: rgb(167, 67, 21);
+    color:rgb(250, 242, 166);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+  }
+  
+  #myButton:hover {
+    background-color: #75260e; /* Darker background on hover */
+  }
