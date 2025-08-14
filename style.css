@@ -136,4 +136,7 @@ img {
   #myButton:hover {
     background-color: #75260e; /* Darker background on hover */
     text-align: center;
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Centers horizontally by setting equal left/right margins */
+    width: fit-content; /* Or a specific width */
   }
