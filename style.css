@@ -124,23 +124,22 @@ img {
     /* center align text */
 }
 
-#myButton {
+.fire-btn {
     padding: 10px 20px;
     background-color: rgb(167, 67, 21);
     color:rgb(250, 242, 166);
     border: none;
     border-radius: 5px;
     cursor: pointer; /* Changes cursor to a pointer on hover */
+    margin: 0;
+    height: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  #myButton:hover {
+  .fire-btn {
     background-color: #75260e; /* Darker background on hover */
     text-align: center;
     
-  }
-
-  .buttons2 {
-    display: grid; /* Enables CSS Grid */
-    place-items: center; /* Centers both horizontally and vertically */
-    /* Add height/min-height to the parent if vertical centering is desired */
   }
