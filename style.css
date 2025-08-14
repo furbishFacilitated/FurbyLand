@@ -70,35 +70,6 @@ img {
     text-align: center;
 }
 
-/*new furbies */
-
-.topic-content2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 6em;
-    /* bring the whole section in off the sides of the page */
-    width: 70%;
-    /* top margin of 3em and center right/left */
-    margin: 3em auto;
-}
-
-/* Styling for the individual topic cards rounded edges background color and a drop shadow */
-.topic-card2{
-    background-color: rgb(167, 67, 21);
-    color: rgb(250, 242, 166);
-    padding: 1em;
-    border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Styling for the topic card titles */
-.topic-card-text2{
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-    /* center align text */
-    text-align: center;
-}
-
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
     background-color: rgb(167, 67, 21);
@@ -164,4 +135,5 @@ img {
   
   #myButton:hover {
     background-color: #75260e; /* Darker background on hover */
+    text-align: center;
   }
